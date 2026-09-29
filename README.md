@@ -16,7 +16,7 @@ portfolio/
 │── js/
 │── images/
 │── README.md
-│── .gitignore
+└── .gitignore
 
 ## Deployment
 This site is deployed as a Static Site using Render.  
