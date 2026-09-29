@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: silver;
+  background-image: url("../images/felix-mittermeier-starry-sky-2675322_1920.jpg");
+  font-family: "arial black", sans-serif, poppins;
+}
+
+.my-custom-navbar {
+  background-color: #000066;
+}
+
+.my-custom-navbar .nav-link, .navbar-brand, nav-link active {
+  color: silver;
+  margin-right: 8px;
+  padding: 4px;
+  transition: transform 0.2s ease;
+}
+
+.my-custom-navbar .nav-link:hover, .navbar-brand:hover {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  color: #000066;
+  transform: scale(1.08);
+}
+
+/* White hamburger icon */
+#index-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='silver' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Glogal Header, Section & Card styling */
+header {
+  background-image: url("../images/felix-mittermeier-milky-way-2750627_1920.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lead {
+  color: #000066;
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
+
+section {
+  color: silver;
+}
+
+section .btn {
+  background-color: #000066;
+  color: silver;
+  border: 2px solid silver;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+section .btn:hover {
+  background-color: silver;
+  border: 2px solid #000066;
+  color: #000066;
+  transform: scale(1.08);
+}
+
+#section-text {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 30px;
+  padding: 16px;
+}
+
+
+.card-img-top {
+  border: 2px solid silver;
+  border-radius: 12px;
+}
+
+.card {
+  border: 2px solid #3d2e5a;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #00004d;
+  color: #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+
+/* Index/welcome page */
+#feat-proj {
+  color: #000066;
+  background-color: #8c8c8c;
+  padding: 16px;
+  border: 2px solid silver;
+  border-radius: 12px;
+}
+
+/* About html */
+#about-con {
+  font-family: arial;
+  font-weight: bold;
+}
+
+/* Resume html */
+#resume-con {
+  background-color: rgba(0,0,0,0.7);
+  padding: 16px;
+  border-radius: 12px;
+  font-family: poppins;
+  font-weight: bold;
+  width: 40%;
+  margin: auto;
+}
+
+#myModal, #myModal1, #myModal2 {
+  font-family: poppins;
+  color: black;
+  font-weight: bold;
+}
+
+.modal-header {
+}
+
+/* To keep modal compact */
+
+.hidden { display: none; }
+.has-sub { position: relative; }
+.toggle {
+  margin-left: 8px;
+  background-color: #000066;
+  font-size: 0.65rem;
+  border-radius: 40px;
+  color: silver;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background-color: silver;
+  color: #000066;
+}
+
+.main-list {
+  color: black;
+  font-weight: bold;
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.sub-list {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
+/* Global footer */
+footer {
+  background-color: #000066; /* dark dark blue */
+  margin-top: auto;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor junk
+.vscode/
+.idea/
+
+# Build folders (if you ever add a bundler later)
+dist/
+build/
+
+# Node modules (if you ever add npm later)
+node_modules/

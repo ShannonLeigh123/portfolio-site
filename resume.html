@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Résumé | Shannon</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark my-custom-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Shannon</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon" id="index-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="resume.html">Résumé</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="py-5 bg-dark text-light text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Résumé</h1>
+    <p class="lead mt-3">Experience • Skills • Education</p>
+  </div>
+</header>
+
+<section class="py-5" style="color:silver;">
+  <div class="container" id="resume-con">
+    <div class="row align-items-center">
+
+      <div class="col-md-4 text-center mb-4">
+        <img src="images/pfp6.jpg" class="img-fluid rounded-circle shadow" alt="Profile Photo">
+      </div>
+
+      <div>
+        <h2>Download Résumé</h2>
+        <p class="mb-4">
+          <a href="assets/resume2.pdf" class="btn" target="_blank">Open PDF</a>
+        </p>
+
+        <hr>
+
+       <h2 class="mt-4">Skills</h2>
+       <p>Click the button to view skills.</p>
+
+         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal1">
+         Open Skills
+         </button>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Skills</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <ul class="main-list">
+
+              <li class="has-sub">
+                Database Design:
+                <button class="toggle">-</button>
+                <ul class="sub-list">
+                  <li>SQL Server</li>
+                  <li>PostgreSQL</li>
+                  <li>MySQL</li>
+                </ul>
+              </li>
+
+              <li class="has-sub">
+                Programming Languages:
+                <button class="toggle">-</button>
+                <ul class="sub-list">
+                  <li>Python</li>
+                  <li>SQL</li>
+                </ul>
+              </li>
+
+              <li class="has-sub">
+                Web Development & Frameworks:
+                <button class="toggle">-</button>
+                <ul class="sub-list">
+                  <li>Django</li>
+                  <li>Bootstrap 5</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ul>
+              </li>
+
+              <li class="has-sub">
+                Data Analytics & Visualization:
+                <button class="toggle">-</button>
+                <ul class="sub-list">
+                  <li>Excel</li>
+                  <li>Power BI</li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <h2 class="mt-4">Experience</h2>
+    <p>Click the button to view experience.</p>
+
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal2">
+      Open Experience
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Experience</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <ul class="main-list">
+              <li>
+                <h4><i>Software Engineering Projects</i></h4>
+                  <ul>
+                    <li>Mini Stellar Encyclopedia (Python, Django, PostgreSQL, Bootstrap 5)</li>
+                      <ul>
+                         <li>Architected a data-driven astronomy web app from scratch, utilizing Django
+                             and a relational PostgreSQL database to store and serve complex celestial data.</li>
+                         <li>Designed a mobile-first, responsive user interface using Bootstrap 5 and custom
+                             layout mechanics.</li>
+                         <li>Utilized GitHub Copilot and Gemini to integrate functional, AI-assisted JavaScript
+                             interactivity seamlessly.</li>
+                      </ul>
+                   <li>Creative Personal Log App (Python, Django, PostgreSQL, Bootstrap 5)</li>
+                      <ul>
+                        <li>Developed a customizable logging framework utilizing Django to securely capture,
+                            edit, and display diverse user data inputs.</li>
+                        <li>Engineered the relational backend database structure using PostgreSQL to
+                            optimize data persistence.</li>
+                        <li>Leveraged AI debugging models to rapidly isolate logic bugs and accelerate the self
+                            directed learning cycle.</li>
+                      </ul>
+                    </ul>
+              </li>
+
+              <li>
+                <h4><i>Household Manager, Caregiver, Pet Caregiver</i></h4>
+                <p>Dieudonne Home</p>
+              </li>
+              <li>
+                <h4><i>Merchandiser, Designer, Installer</i></h4>
+                <p>Peregrin's Florist & Decorative Services, Inc.</i></p>
+              </li>
+              <li>
+                <h4><i>Softlines Lead, Merchandise Manager</i></h4>
+                <p>Sears, Baton Rouge, LA</p>
+              </li>
+              <li>
+                <h4><i>Kitchen Designer, Sales Associate</i></h4>
+                <p>The Home Depot, Baton Rouge, LA</p>
+              </li>
+              <li>
+                <h4><i>Vignette Installer, Sales Specialist</i></h4>
+                <p>Office Depot, Baton Rouge, LA</p>
+              </li>
+              <li>
+                <h4><i>Store Manager</i></h4>
+                <p>Subway, Baton Rouge, LA</p>
+              </li>
+              <li>
+                <h4><i>Store Merhandise Manager</i></h4>
+                <p>The Gap Inc., GapKids, Baby Gap, Baton Rouge, LA</p>
+              </li>
+              <li>
+                <h4><i>Sales Associate, Visual Display Installer</i></h4>
+                <p>The Gap, Inc., Lafayette, LA</p>
+              </li>
+              <li>
+                <h4><i>E.R. Admission Rep., PBX Operator, Data Entry</i></h4>
+                <p>Dauterive Hospital, New Iberia, LA</p>
+              </li>
+              <li>
+                <h4><i>Cosmetologist</i></h4>
+                <p>Dore Dore Salon, Lafayette, LA</p>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <h2 class="mt-4">Education</h2>
+    <p>Click the button to view education.</p>
+
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+      Open Education
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Education & Courses Completed</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <ul class="main-list">
+
+              <li class="has-sub">
+                Alison Courses
+                <button class="toggle">-</button>
+                <ul class="sub-list">
+                  <li>Microsoft Excel Essentials</li>
+                  <li>Microsoft Excel Formulas and Functions</li>
+                  <li>Microsoft Excel 2019 for Beginners</li>
+                  <li>Simplified Microsoft Excel Functions</li>
+                  <li>Diploma in Microsoft Excel for Beginners and Experts</li>
+                  <li>Introduction to Python</li>
+                  <li>Python for Beginners</li>
+                  <li>SQL for Beginners</li>
+                  <li>Diploma in Python Programming</li>
+                  <li>SQL Server for Data Analysis</li>
+                  <li>Data Analysis with Tables and PivotTables in Microsoft</li>
+                  <li>Diploma in Python Fundamentals</li>
+                  <li>Diploma in Databases and T-SQL</li>
+                  <li>Microsoft Excel 2013 - Advanced: Master Spreadsheets</li>
+                  <li>Artificial Intelligence and Machine Learning in Business</li>
+                  <li>Advanced Excel 2021</li>
+                  <li>ChatGPT for Programmers</li>
+                  <li>Diploma in Advanced SQL Server</li>
+                  <li>Diploma in Microsoft Power BI for Beginners</li>
+                </ul>
+              </li>
+
+              <li class="has-sub">
+                W3Schools
+                <button class="toggle">-</button>
+                <ul class="sub-list">
+                  <li>Bootstrap 5</li>
+                  <li>Css</li>
+                  <li>Django</li>
+                  <li>Excel</li>
+                  <li>HTML</li>
+                  <li>NumPy</li>
+                  <li>Pandas</li>
+                  <li>PostgreSQL</li>
+                  <li>Python</li>
+                  <li>SciPy</li>
+                  <li>SQL</li>
+                </ul>
+              </li>
+
+              <li>
+                MITx
+                <ul class="sub-list">
+                  <li>Verified Certificate</li>
+                  <li>Introduction to Computer Science and Programming Using Python</li>
+                </ul>
+              </li>
+
+              <li>
+                University of Southwestern Louisiana
+                <ul class="sub-list">
+                  <li>B.S. Apparel Design and Merchandising</li>
+                  <li>College of Applied Life Sciences</li>
+                </ul>
+              </li>
+
+              <li>
+                Lockworks Academy of Cosmetology
+                <ul class="sub-list">
+                  <li>Licensed Cosmetologist</li>
+                </ul>
+              </li>
+
+              <li>
+                New Iberia Senior High
+                <ul class="sub-list">
+                  <li>High School Diploma</li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+     </div>
+    </div>
+
+
+  </div>
+  </div>
+</section>
+
+<footer class="py-4 text-light text-center">
+  <div class="container">
+    <p class="mb-0">© 2026 Shannon — All Rights Reserved</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
+
