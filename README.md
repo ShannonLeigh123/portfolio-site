@@ -10,6 +10,7 @@ A responsive Bootstrap-based personal portfolio showcasing my design style, proj
 - Easy to update and maintain
 
 ## Project Structure
+'''
 portfolio/
 │── index.html
 │── css/
@@ -17,7 +18,7 @@ portfolio/
 │── images/
 │── README.md
 └── .gitignore
-
+'''
 ## Deployment
 This site is deployed as a Static Site using Render.  
 Once deployed, it will be connected to my custom domain through Cloudflare.
