@@ -27,7 +27,7 @@ Once deployed, it will be connected to my custom domain through Cloudflare.
 - NotableNotes — Django project
 
 ## Screenshots
-Screenshots will be added once deployment is complete.
+View in screenshots folder.
 
 ## Tech Stack
 - HTML5
@@ -38,8 +38,7 @@ Screenshots will be added once deployment is complete.
 - Cloudflare (domain)
 
 ## My Website/Portfolio
-Visit the live site:
-(portfolio-site-437f.onrender.com)
+[View My Live Portfolio](https://onrender.com)
 
 ## Contact
 Feel free to reach out through the contact section on the site.
