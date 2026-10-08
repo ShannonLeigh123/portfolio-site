@@ -11,7 +11,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: silver;
+  background-color: darkblue;
   background-image: url("../images/felix-mittermeier-starry-sky-2675322_1920.jpg");
   font-family: "arial black", sans-serif, poppins;
 }
