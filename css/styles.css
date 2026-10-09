@@ -47,12 +47,14 @@ header {
 }
 
 .lead {
-  color: #000066;
+  font-family: roboto, inter, sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
   text-shadow:
-    -1px -1px 0 white,
-     1px -1px 0 white,
-    -1px  1px 0 white,
-     1px  1px 0 white;
+    -1px -1px 0 #000066,
+     1px -1px 0 #000066,
+    -1px  1px 0 #000066,
+     1px  1px 0 #000066;
 }
 
 section {
